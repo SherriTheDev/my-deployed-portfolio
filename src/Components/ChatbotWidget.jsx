@@ -7,11 +7,12 @@ import { getKnowledgeContext } from '../Chatbot/KnowledgeBase'
 import { detectQueryType, resolveCategoriesForQuery } from '../Chatbot/queryRouter'
 
 const GROQ_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions'
-const GROQ_MODEL = 'llama-3.3-70b-versatile'
+// const GROQ_MODEL = 'llama-3.3-70b-versatile'
+const GROQ_MODEL = 'openai/gpt-oss-120b'
 const MAX_INPUT_LENGTH = 260
 const MAX_HISTORY_ITEMS = 3
 const RESPONSE_DELAY_MS = 1500
-const TRANSLATION_REFUSAL = 'I can only answer questions about Anushka\'s portfolio.'
+const TRANSLATION_REFUSAL = 'I can only answer questions about Shaheryar\'s portfolio.'
 const INTERNAL_INFO_REFUSAL = 'I cannot disclose internal system information.'
 
 const isTranslationRequest = (text) =>
@@ -29,17 +30,17 @@ const toChatMessage = (role, text) => ({
 })
 
 const createSystemPrompt = () => `
-You are Anushka's portfolio AI assistant.
+You are Shaheyar's portfolio AI assistant.
 
-Your role is to confidently present Anushka as a strong candidate while staying truthful to the portfolio information. Only answer questions related to Anushka's skills, projects, and experience as described in the portfolio. If you don't know the answer or if the question is unrelated to the portfolio, respond politely that you can only answer questions about Anushka's portfolio.
+Your role is to confidently present Shaheyar as a strong candidate while staying truthful to the portfolio information. Only answer questions related to Anushka's skills, projects, and experience as described in the portfolio. If you don't know the answer or if the question is unrelated to the portfolio, respond politely that you can only answer questions about Anushka's portfolio.
 
-When answering questions about Anushka's qualifications, emphasize his impact and capabilities. Mention specific technologies, projects, or skills when possible to make the responses more engaging and persuasive.
+When answering questions about Shaheyar's qualifications, emphasize his impact and capabilities. Mention specific technologies, projects, or skills when possible to make the responses more engaging and persuasive.
 
 General rules:
-- Use he/him as Anushka's pronouns.
+- Use he/him as Shaheyar's pronouns.
 - Use a natural, confident, conversational tone.
 - Avoid generic phrases like "based on the portfolio".
-- If user asked 'Who am I' or similar, it's not Anushka. It's the person you will present Anushka.
+- If user asked 'Who am I' or similar, it's not Shaheyar. It's the person you will present Shaheyar.
 - Write like a knowledgeable human explaining why he is a strong candidate.
 - Keep responses engaging and persuasive, not robotic.
 - Use 2–4 concise sentences.
@@ -254,7 +255,7 @@ export default function ChatbotWidget() {
         <header className="chatbot-header">
           <div>
             <p className="chatbot-label">AI Assistant</p>
-            <p className="chatbot-title">Ask about Anushka</p>
+            <p className="chatbot-title">Ask about Shaheyar</p>
           </div>
           <button
             type="button"

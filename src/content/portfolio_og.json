@@ -1,0 +1,434 @@
+{
+  "site": {
+    "name": "Muhammad Shaheryar",
+    "pronoun": "he/him",
+    "role": "Senior Mobile Application Engineer",
+    "location": "Islamabad, Pakistan",
+    "locationLabel": "Mobile engineer building cross-platform applications with Flutter & Backend development",
+    "footerLocation": "Islamabad, Pakistan",
+    "availability": "Open to full-time senior roles, technical leadership, and mobile focused collaborations",
+    "resumeUrl": "",
+    "coreLanes": ["mobile", "backend", "cross-platform"]
+  },
+  "navigation": [
+    { "id": "hero", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "stack", "label": "Stack" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "socialLinks": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/in/shaheryar-malik",
+      "iconKey": "linkedin"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "href": "mailto:shaheryarthedev@gmail.com",
+      "iconKey": "mail"
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "href": "https://wa.me/+923440511677",
+      "iconKey": "whatsapp"
+    }
+  ],
+  "hero": {
+    "kicker": "Building production-grade mobile apps with clean architecture and seamless user experiences",
+    "headline": "Muhammad Shaheryar",
+    "intro": "Highly skilled Mobile Application Engineer with over 8 years of experience in developing and optimizing mobile applications. Specializing in Flutter and Android development with over 6 years of expertise in Flutter and 2 years in Android development using Java.",
+    "ctaButtons": [
+      {
+        "label": "View selected work",
+        "href": "#projects",
+        "variant": "primary",
+        "iconKey": "arrowDownRight"
+      },
+      {
+        "label": "Start a conversation",
+        "href": "#contact",
+        "variant": "secondary",
+        "iconKey": "mail"
+      }
+    ],
+    "heroSocialLinkIds": ["linkedin", "email", "phone"],
+    "quickFacts": [
+      {
+        "label": "Current role",
+        "value": "Senior Flutter Developer",
+        "detail": "Building emotional well-being app at YouHue FZ-LLC."
+      },
+      {
+        "label": "Core stack",
+        "value": "Flutter, Android, Nest.js",
+        "detail": "Mobile + backend + blockchain solutions."
+      },
+      {
+        "label": "Location",
+        "value": "Pakistan",
+        "detail": "Open to remote senior roles."
+      }
+    ],
+    "focusAreas": [
+      {
+        "title": "Cross-platform mobile development",
+        "text": "Flutter applications that deliver consistent experiences across Android, iOS, web, macOS, and tablets."
+      },
+      {
+        "title": "Team leadership",
+        "text": "Leading teams to deliver projects within proposed time and budget while mentoring junior engineers."
+      }
+    ],
+    "bestFitLabel": "Best fit",
+    "bestFitText": "Teams that need senior Flutter expertise, mobile architecture leadership, and blockchain integration capabilities.",
+    "proofLabels": {
+      "caseStudies": "featured case studies",
+      "liveDemos": "live demos available",
+      "coreLanesPrefix": "core lanes across",
+      "workStart": "entered production-facing engineering work"
+    }
+  },
+  "about": {
+    "title": "Mobile-First Engineering with Full-Stack and Blockchain Depth.",
+    "copy": "Over 8 years of experience in mobile application development with 6+ years specializing in Flutter. Proficient in state management using Bloc, Riverpod, Provider, and GetX. Demonstrated backend API development with Nest.js and blockchain technology with Solidity. Lead teams to develop projects within proposed time and budget while maintaining 99% crash-free rates and optimizing app sizes by up to 70%.",
+    "principles": [
+      {
+        "title": "Cross-Platform Excellence",
+        "text": "Building consistent experiences across Android, iOS, web, desktop, and tablets using Flutter with responsive design and platform-specific optimizations.",
+        "iconKey": "building"
+      },
+      {
+        "title": "Production Quality",
+        "text": "Achieved 99% crash-free rates through robust error handling, Crashlytics integration, SSL pinning, and secure storage implementation.",
+        "iconKey": "gears"
+      },
+      {
+        "title": "Team Leadership",
+        "text": "Leading cross-functional teams, mentoring junior developers, conducting code reviews, and driving agile methodologies for reliable feature delivery.",
+        "iconKey": "brain"
+      }
+    ],
+    "highlightLabels": {
+      "projects": "featured builds across emotional wellness, transportation, blockchain, and event management",
+      "coreLanesPrefix": "main lanes:",
+      "workStart": "entered production-facing engineering work"
+    },
+    "capabilities": [
+      "Building cross-platform mobile applications with Flutter for Android, iOS, web, macOS, and tablets.",
+      "Implementing state management with Bloc, Riverpod, Provider, and GetX for scalable app architecture.",
+      "Developing backend APIs with Node.js, Nest.js, Prisma ORM, and PostgreSQL with CI/CD pipelines.",
+      "Integrating blockchain solutions including ERC20 tokens, NFT platforms, and crypto wallets with Solidity.",
+      "Optimizing app performance through lazy loading, pagination, caching, and reducing APK sizes by up to 70%."
+    ],
+    "priorities": [
+      "Delivering robust, scalable mobile solutions with exceptional crash-free rates and security standards.",
+      "Leading teams to successful project completion within proposed timelines and budgets.",
+      "Mentoring junior developers and fostering continuous learning cultures within engineering teams."
+    ],
+    "workingStyle": {
+      "label": "Working style",
+      "text": "I like work that is grounded in actual delivery: clean architecture, proper state management, thorough testing, and clear communication across product, design, and backend teams."
+    },
+    "stackNote": {
+      "label": "Stack note",
+      "text": "The toolset lives in its own section so it reads more like a system view than a handful of loose tags."
+    }
+  },
+  "stack": {
+    "title": "The tools I keep closest to the work.",
+    "copy": "Built like a dedicated section instead of loose badges: the core technologies, delivery tools, and product workflow essentials I return to most often.",
+    "sections": [
+      {
+        "category": "Mobile (Cross-Platform)",
+        "description": "Flutter ecosystem and state management",
+        "items": [
+          { "label": "Flutter", "iconKey": "flutter" },
+          { "label": "Dart", "iconKey": "dart" },
+          { "label": "Bloc", "iconKey": "bloc" },
+          { "label": "Riverpod", "iconKey": "riverpod" },
+          { "label": "Provider", "iconKey": "provider" },
+          { "label": "GetX", "iconKey": "getx" },
+          { "label": "GraphQL", "iconKey": "graphql" },
+          { "label": "Dio", "iconKey": "dio" },
+          { "label": "Hive", "iconKey": "hive" },
+          { "label": "Flutter Web", "iconKey": "flutter" },
+          { "label": "Flutter Desktop", "iconKey": "flutter" }
+        ]
+      },
+      {
+        "category": "Mobile (Native Android)",
+        "description": "Android SDK and native development",
+        "items": [
+          { "label": "Android SDK", "iconKey": "android" },
+          { "label": "Java", "iconKey": "java" },
+          { "label": "Kotlin", "iconKey": "kotlin" },
+          { "label": "Room", "iconKey": "room" },
+          { "label": "Retrofit", "iconKey": "retrofit" },
+          { "label": "Dagger", "iconKey": "dagger" },
+          { "label": "JUnit", "iconKey": "junit" },
+          { "label": "Gradle", "iconKey": "gradle" }
+        ]
+      },
+      {
+        "category": "Backend",
+        "description": "Server-side runtime, frameworks, and databases",
+        "items": [
+          { "label": "Node.js", "iconKey": "nodejs" },
+          { "label": "Nest.js", "iconKey": "nestjs" },
+          { "label": "TypeScript", "iconKey": "typescript" },
+          { "label": "JavaScript", "iconKey": "javascript" },
+          { "label": "Prisma ORM", "iconKey": "prisma" },
+          { "label": "PostgreSQL", "iconKey": "postgresql" },
+          { "label": "Docker", "iconKey": "docker" },
+          { "label": "JWT", "iconKey": "jwt" },
+          { "label": "Swagger", "iconKey": "swagger" }
+        ]
+      },
+      {
+        "category": "Blockchain & Web3",
+        "description": "Smart contracts and decentralized applications",
+        "items": [
+          { "label": "Solidity", "iconKey": "solidity" },
+          { "label": "Web3", "iconKey": "web3" },
+          { "label": "ERC20", "iconKey": "erc20" },
+          { "label": "NFT", "iconKey": "nft" }
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "description": "Infrastructure, CI/CD, and deployment",
+        "items": [
+          { "label": "Firebase", "iconKey": "firebase" },
+          { "label": "GitLab CI", "iconKey": "gitlab" },
+          { "label": "CI/CD", "iconKey": "cicd" },
+          { "label": "Docker", "iconKey": "docker" },
+          { "label": "Linode", "iconKey": "linode" }
+        ]
+      },
+      {
+        "category": "Common Mobile & Tools",
+        "description": "Integrations, testing, and design",
+        "items": [
+          { "label": "Push Notifications", "iconKey": "push" },
+          { "label": "Google Maps", "iconKey": "googlemaps" },
+          { "label": "RevenueCat", "iconKey": "revenuecat" },
+          { "label": "In-App Purchases", "iconKey": "iap" },
+          { "label": "MVVM", "iconKey": "mvvm" },
+          { "label": "RESTful APIs", "iconKey": "restapi" },
+          { "label": "Figma", "iconKey": "figma" },
+          { "label": "Postman", "iconKey": "postman" },
+          { "label": "Git", "iconKey": "git" },
+          { "label": "GitHub", "iconKey": "github" }
+        ]
+      }
+    ]
+  },
+  "experienceSection": {
+    "title": "A timeline that reads like real progress, not filler.",
+    "copy": "My path combines senior engineering, technical leadership, and hands-on mobile development. The goal here is simple: make each step easy to scan, easy to understand, and clearly tied to what it added to the craft.",
+    "overviewLabels": {
+      "currentRole": "Current role",
+      "academicTrack": "Academic track",
+      "leadership": "Leadership"
+    }
+  },
+  "projectsSection": {
+    "title": "Case studies that explain the work without making you fight the layout.",
+    "copy": "This section is now built to scan cleanly: project context first, delivery choices next, and outcome last. That makes the work easier to review whether the demo is public or the product is still private.",
+    "summaryLabels": {
+      "caseStudies": "Case studies",
+      "liveDemos": "Live demos",
+      "privateBuilds": "Private builds"
+    }
+  },
+  "contact": {
+    "title": "Let us make the next build feel stronger from the start.",
+    "copy": "If you have a product idea, senior engineering opportunity, blockchain collaboration, or need mobile architecture expertise, I am happy to talk through it with clear expectations and a focused approach.",
+    "bestFitLabel": "Best fit for",
+    "bestFitText": "Senior Flutter roles, technical leadership positions, and teams that value both mobile excellence and full-stack depth.",
+    "contactItems": [
+      {
+        "label": "Email",
+        "value": "shaheryarthedev@gmail.com",
+        "href": "mailto:shaheryarthedev@gmail.com",
+        "iconKey": "mail"
+      },
+      {
+        "label": "Phone",
+        "value": "+92 344 0511677",
+        "href": "https://wa.me/+923440511677",
+        "iconKey": "phone"
+      },
+      {
+        "label": "Location",
+        "value": "Pakistan",
+        "href": "",
+        "iconKey": "location"
+      }
+    ],
+    "emailjs": {
+      "serviceId": "service_8w7mqi9",
+      "templateId": "template_w58aksc",
+      "userId": "gc6N2Qkz8BA2kRnip"
+    },
+    "form": {
+      "label": "Message form",
+      "title": "Start the conversation",
+      "copy": "Share the goal, the stage you are in, and what kind of help you need.",
+      "fields": {
+        "nameLabel": "Name",
+        "namePlaceholder": "Your full name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "name@email.com",
+        "messageLabel": "Project brief",
+        "messagePlaceholder": "Tell me what you are building, what stage you are in, and how I can help."
+      },
+      "submitLabel": "Send message",
+      "sendingLabel": "Sending message...",
+      "successMessage": "Message sent successfully. I will get back to you soon.",
+      "errorMessage": "Something went wrong while sending your message. Please try again later."
+    }
+  },
+  "certifications": [],
+  "projects": [
+    {
+      "title": "YouHue",
+      "category": "Emotional well-being app for students and educators",
+      "year": "2025",
+      "imageKey_": "youhue",
+      "imageKey": "youhue",
+      
+      "summary": "Cross-platform application enabling mood journaling and suggested activity tracking for emotional wellness in educational settings.",
+      "challenge": "Build a consistent experience across Android, iOS, tablets, macOS, and web while implementing intuitive mood selection with rich animations.",
+      "delivery": "Revamped using Flutter with Riverpod state management, RESTful API integration, and modular architecture for maintainable cross-platform support.",
+      "impact": "Created a digital safe space where students freely share feelings, making emotional management engaging and accessible.",
+      "stack": ["Flutter", "Riverpod", "RESTful APIs", "Android", "iOS", "macOS", "Web", "Tablets"],
+      "metrics": ["Cross-platform consistency", "Rich animations", "Mood journaling system"],
+      "liveDemo": "https://youhue.com",
+      "githubRepo": "https://youhue.com"
+    },    {
+      "title": "Attendo Plus CPD",
+      "category": "Event management platform",
+      "year": "2023",
+      "imageKey": "attendo",
+      "summary": "Event management app with QR scanning, Google Maps integration, push notifications, and in-app purchases.",
+      "challenge": "Maintain and add features to existing Android and iOS event management application.",
+      "delivery": "Android app maintenance, feature additions, and issue resolution for comprehensive event management.",
+      "impact": "Enhanced event management capabilities with QR attendance tracking and CPD functionality.",
+      "stack": ["Flutter", "Android", "iOS", "QR Scanning", "Google Maps API", "Push Notifications", "In-App Purchases"],
+      "metrics": ["Cross-platform events", "QR check-in", "CPD tracking"],
+      "githubRepo": "",
+      "liveDemo": "https://apps.apple.com/us/app/attendo-plus/id6766174371"
+    },
+    {
+      "title": "Marvellex",
+      "category": "Web3 mobile crypto wallet",
+      "year": "2023",
+      "imageKey": "marvellex",
+      "summary": "Android and iOS crypto wallet app supporting generic and custom ERC20 tokens with QR payment feature.",
+      "challenge": "Build secure cryptocurrency wallet with QR payment functionality for locked assets.",
+      "delivery": "Android Developer for Marvellex web3 mobile wallet, contributed to iOS native wallet features and crypto transaction handling.",
+      "impact": "Launched crypto wallet with robust security and cross-platform token support.",
+      "stack": ["Android", "iOS", "Web3", "ERC20", "QR Payments", "Blockchain"],
+      "metrics": ["Crypto wallet security", "Multi-token support", "QR payment system"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=io.marvellex&hl=en"
+    },    {
+      "title": "Redmine Client",
+      "category": "Task management solution",
+      "year": "2023",
+      "imageKey": "redmine",
+      "summary": "Flutter app using open-source Redmine API for comprehensive task management.",
+      "challenge": "Build mobile client for Redmine task management system with Google Ads integration.",
+      "delivery": "Flutter application with RESTful API integration, Google Ads, and push notifications.",
+      "impact": "Provided mobile access to Redmine task management with monetization through ads.",
+      "stack": ["Flutter", "Provider", "RESTful APIs", "Google Ads", "Push Notifications"],
+      "metrics": ["Task management", "API integration", "Ad monetization"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=com.ifisol.redmine_client&hl=en"
+    },
+        {
+      "title": "Ring In",
+      "category": "Community sports collaboration app",
+      "year": "2024",
+      "imageKey": "ringin",
+      "summary": "Community app for sports players to collaborate and hire missing roles for their teams.",
+      "challenge": "Build cross-platform solution for sports team formation and player collaboration.",
+      "delivery": "Flutter-based project for Android, iOS, and Web with Firebase, FCM, Google Maps, and Places API.",
+      "impact": "Enabled sports communities to find players and fill team positions efficiently.",
+      "stack": ["Flutter", "Firebase", "FCM", "Google Maps", "Google Places", "Web"],
+      "metrics": ["Team collaboration", "Role finding", "Cross-platform sports community"],
+      "githubRepo": "",
+      "liveDemo": "https://ringin.club/rings"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "8+ Production Projects Launched",
+      "year": "2025",
+      "description": "Successfully launched 8+ projects across FISOL, Alphabase, and URUK IT Solutions in developer, product owner, and team lead roles."
+    },
+    {
+      "title": "70% App Size Reduction",
+      "year": "2024",
+      "description": "Reduced legacy application sizes up to 70% by implementing vector assets, Proguard, and app bundles."
+    },
+    {
+      "title": "99% Crash-Free Rate",
+      "year": "2024",
+      "description": "Achieved 99% crash-free rate through robust error handling, Crashlytics integration, and performance monitoring."
+    },
+    {
+      "title": "Team Leadership & Mentorship",
+      "year": "2025",
+      "description": "Led cross-functional teams, mentored junior developers, and conducted code reviews fostering continuous learning culture."
+    }
+  ],
+  "experiences": [
+    {
+      "period": "Jan 2025 - Present",
+      "type": "Work",
+      "title": "YouHue FZ-LLC",
+      "role": "Senior Flutter Developer",
+      "summary": "Developing emotional well-being app for students and educators. Maintaining cross-platform support across Android, iOS, tablets, macOS, and web. Implementing intuitive UI features with rich animations and Riverpod state management.",
+      "focus": ["Cross-platform Flutter", "Riverpod", "API integration", "Modular architecture"]
+    },
+    {
+      "period": "Oct 2024 - May 2025",
+      "type": "Work",
+      "title": "URUK IT Solutions",
+      "role": "Senior Flutter Developer",
+      "summary": "Collaborated with development manager, design lead, and backend leads to architect mobile applications. Led and mentored team of developers, overseeing full software development lifecycle with agile methodologies.",
+      "focus": ["Team leadership", "Agile methodologies", "CI/CD", "Mentoring"]
+    },
+    {
+      "period": "Jun 2022 - Mar 2024",
+      "type": "Leadership",
+      "title": "Alphabase (formerly Block360)",
+      "role": "Senior Software Engineer (Flutter, Android, Nest.js)",
+      "summary": "Launched 3 projects as developer, product owner, and team lead. Developed mobile crypto wallet, NFT gaming platform, and asset tokenization app. Implemented CI/CD pipelines with GitLab CI on Linode servers.",
+      "focus": ["Flutter", "Android", "Nest.js", "Blockchain", "Team leadership", "CI/CD"]
+    },
+    {
+      "period": "Jan 2018 - Jun 2022",
+      "type": "Work",
+      "title": "FISOL SMC PVT Ltd.",
+      "role": "Mobile Application Developer (Flutter, Android)",
+      "summary": "Launched 8 projects across developer, product owner, and team lead roles. Reduced app sizes up to 70%, achieved 99% crash-free rate, implemented SSL pinning and secure storage for security.",
+      "focus": ["Flutter", "Android", "Performance optimization", "Security", "Mentoring"]
+    },
+    {
+      "period": "2014 - 2018",
+      "type": "Education",
+      "title": "COMSATS University Islamabad",
+      "role": "Bachelor of Science in Software Engineering",
+      "summary": "CGPA: 3.36/4. Built strong foundation in software engineering principles, system design, and development methodologies.",
+      "focus": ["Software Engineering", "System Design", "Development methodologies"]
+    }
+  ]
+}

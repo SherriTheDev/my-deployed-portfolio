@@ -6,6 +6,15 @@ import stockPortal from '../assets/stock_p.webp'
 import portfolio from './portfolio.json'
 import hotel_booking from '../assets/hotel_booking.webp'
 import sobriety_app from '../assets/sobriety_app.webp'
+import youhue from '../assets/youhue-img.png'
+import attendo from '../assets/attendo.png'
+import marvellex from '../assets/marvellex.jpeg'
+import redmine from '../assets/redmine.webp'
+import manawanui from '../assets/manawanui.png'
+import services from '../assets/services.png'
+import mightytaxi from '../assets/mighty-taxi.jpg'
+import himolatech from '../assets/himolatech.png'
+import ringin from '../assets/ringin.png'
 
 const projectImages = {
   hostel: HostelApp,
@@ -14,7 +23,16 @@ const projectImages = {
   horizon,
   envirosense,
   hotel_booking,
-  sobriety_app
+  sobriety_app,
+  youhue,
+  attendo,
+  marvellex,
+  redmine,
+  manawanui,
+  services,
+  mightytaxi,
+  himolatech,
+  ringin,
 }
 
 const getStartYear = (period = '') => {

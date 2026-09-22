@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 import MobileParallax from '../Animation/MobileParallax'
 import Reveal from '../Animation/Reveal'
 import StaggerText from '../Animation/StaggerText'
-import portrait from '../assets/my_pic.webp'
+import portrait from '../assets/my_pic.png'
 import { portfolioStats, siteContent, socialLinks } from '../content'
 
 const socialIconMap = {
@@ -122,9 +122,10 @@ export default function Hero() {
                     <img
                       src={portrait}
                       alt={`Portrait of ${siteContent.site.name}`}
-                      className="h-[22rem] w-full object-cover sm:h-[28rem]"
+                      className="h-[22rem] w-full object-contain xl:h-full sm:h-[28rem]"
                       loading="lazy"
                       decoding="async"
+                   
                     />
                   </MobileParallax>
 
@@ -133,7 +134,8 @@ export default function Hero() {
                       {siteContent.site.availability}
                     </span>
                     <h2 className="mt-4 text-2xl font-semibold text-white">
-                      Product-minded engineering with a clear visual finish
+                      Building clean, fast, and scalable mobile applications for businesses and startups.
+                      {/* Product-minded engineering with a clear visual finish */}
                     </h2>
                   </div>
                 </div>

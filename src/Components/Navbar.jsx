@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { FiMoon, FiSun } from 'react-icons/fi'
 import { AnimatePresence, motion } from 'motion/react'
-import favicon from '../assets/favicon.webp'
+import favicon from '../assets/favicon.ico'
 import { navigationSections, siteContent } from '../content'
 
 function ThemeToggleButton({ onToggleTheme, theme }) {

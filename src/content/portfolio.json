@@ -1,60 +1,65 @@
 {
   "site": {
-    "name": "Anushka Isuranga",
+    "name": "Muhammad Shaheryar",
     "pronoun": "he/him",
-    "role": "Full-Stack Software Engineer",
-    "location": "Matale, Sri Lanka",
-    "locationLabel": "Full-stack engineer building scalable web systems",
-    "footerLocation": "Matale / Sri Lanka",
-    "availability": "Open to full-time roles, and technical collaborations",
-    "resumeUrl": "https://drive.google.com/file/d/1YLrJRjw-5h3Ytc1cRK1eyC3AzJbvg8Df/view?usp=sharing",
-    "coreLanes": ["web", "backend", "mobile"]
+    "role": "Senior Mobile Application Engineer",
+    "location": "Islamabad, Pakistan",
+    "locationLabel": "Senior mobile engineer building cross-platform applications with Flutter, Android & backend development",
+    "footerLocation": "Islamabad, Pakistan",
+    "availability": "Open to senior mobile roles, freelance projects, product collaborations, and technical leadership",
+    "resumeUrl": "",
+    "coreLanes": ["mobile", "backend", "cross-platform"]
   },
   "navigation": [
-    { "id": "hero", "label": "Home" },
-    { "id": "about", "label": "About" },
-    { "id": "stack", "label": "Stack" },
-    { "id": "experience", "label": "Experience" },
-    { "id": "certifications", "label": "Certifications" },
-    { "id": "projects", "label": "Projects" },
-    { "id": "contact", "label": "Contact" }
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "stack",
+      "label": "Stack"
+    },
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
   ],
   "socialLinks": [
     {
-      "id": "github",
-      "label": "GitHub",
-      "href": "https://github.com/AnushkaIsuranga",
-      "iconKey": "github"
-    },
-    {
       "id": "linkedin",
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/in/anushka-isuranga/",
+      "href": "https://linkedin.com/in/shaheryar-malik",
       "iconKey": "linkedin"
     },
     {
-      "id": "medium",
-      "label": "Medium",
-      "href": "https://medium.com/@isuranga880",
-      "iconKey": "medium"
+      "id": "email",
+      "label": "Email",
+      "href": "mailto:shaheryarthedev@gmail.com",
+      "iconKey": "mail"
     },
     {
-      "id": "instagram",
-      "label": "Instagram",
-      "href": "https://www.instagram.com/aka_andy_780/",
-      "iconKey": "instagram"
-    },
-    {
-      "id": "whatsapp",
-      "label": "WhatsApp",
-      "href": "https://wa.me/+94771732201",
+      "id": "phone",
+      "label": "Phone",
+      "href": "https://wa.me/+923440511677",
       "iconKey": "whatsapp"
     }
   ],
   "hero": {
-    "kicker": "Building full-stack products with cleaner structure and stronger frontend craft",
-    "headline": "Anushka Isuranga",
-    "intro": "I build software that feels professional in both code and presentation: clear interfaces, dependable flows, and product decisions that make sense to the people using them.",
+    "kicker": "Building production-ready mobile apps with Flutter, clean architecture, reliable APIs, and polished user experiences",
+    "headline": "Muhammad Shaheryar",
+    "intro": "Senior Mobile Application Engineer with 8+ years of experience building and optimizing production mobile applications. Specialized in Flutter and Android, with strong hands-on experience integrating and developing backend services using Node.js and Nest.js.",
     "ctaButtons": [
       {
         "label": "View selected work",
@@ -67,49 +72,38 @@
         "href": "#contact",
         "variant": "secondary",
         "iconKey": "mail"
-      },
-      {
-        "label": "Download CV",
-        "href": "https://drive.google.com/file/d/1YLrJRjw-5h3Ytc1cRK1eyC3AzJbvg8Df/view?usp=sharing",
-        "variant": "secondary",
-        "iconKey": "download",
-        "external": true
       }
     ],
-    "heroSocialLinkIds": ["linkedin", "github", "medium"],
+    "heroSocialLinkIds": ["linkedin", "email", "phone"],
     "quickFacts": [
       {
         "label": "Current role",
-        "value": "Software Engineer Intern",
-        "detail": "Shipping production-facing features at Bitzify."
+        "value": "Senior Flutter Developer",
+        "detail": "Building emotional well-being app at YouHue FZ-LLC."
       },
       {
         "label": "Core stack",
-        "value": "Spring Boot, ASP.NET, Python",
-        "detail": "Backend systems with AI/ML applications."
+        "value": "Flutter, Android, Nest.js",
+        "detail": "Cross-platform mobile, backend APIs, integrations, and scalable application architecture."
       },
       {
         "label": "Location",
-        "value": "Matale, Sri Lanka",
-        "detail": "Open to SE roles & freelance work."
+        "value": "Pakistan",
+        "detail": "Open to remote senior roles."
       }
     ],
     "focusAreas": [
       {
-        "title": "Frontend structure",
-        "text": "Readable UI systems, cleaner spacing, and components that scale without feeling heavy."
+        "title": "Cross-platform mobile development",
+        "text": "Flutter applications that deliver consistent experiences across Android, iOS, web, macOS, and tablets."
       },
       {
-        "title": "Product delivery",
-        "text": "Interfaces shaped around the actual workflow instead of just visual decoration."
-      },
-      {
-        "title": "Scalable Backend Systems",
-        "text": "Building REST APIs with Spring Boot and ASP.NET, managing databases, and designing systems that grow without technical debt."
+        "title": "Team leadership",
+        "text": "Leading teams to deliver projects within proposed time and budget while mentoring junior engineers."
       }
     ],
     "bestFitLabel": "Best fit",
-    "bestFitText": "Teams that want a portfolio-style frontend mindset backed by practical delivery, review discipline, and clear communication.",
+    "bestFitText": "Clients and teams looking for senior Flutter expertise, end-to-end mobile delivery, backend integration, and practical technical leadership.",
     "proofLabels": {
       "caseStudies": "featured case studies",
       "liveDemos": "live demos available",
@@ -118,45 +112,47 @@
     }
   },
   "about": {
-    "title": "Full-Stack Systems and AI-Driven Solutions.",
-    "copy": "Computer Science student with AI specialization focused on building full-stack applications and intelligent systems. I design scalable backend services, cloud-deployed platforms, and data-driven solutions. My work combines software engineering discipline with machine learning applications—from REST APIs and database architecture to predictive models and IoT systems. Currently contributing to production systems at Bitzify.",
+    "title": "Mobile-First Engineering with Strong Backend Depth.",
+    "copy": "Over 8 years of experience in mobile application development, including 6+ years specializing in Flutter and 2 years in Android development. Strong experience with modern state management, RESTful APIs, backend development using Node.js and Nest.js, PostgreSQL, and production integrations. Experienced in leading teams, improving app performance, maintaining high crash-free rates, and delivering applications from idea to production. Blockchain and Web3 experience is an additional capability rather than the primary focus.",
     "principles": [
       {
-        "title": "Scalable Backend Systems",
-        "text": "Building robust REST APIs with Spring Boot and ASP.NET, designing databases that grow with the business, and implementing cloud-native architectures.",
+        "title": "Cross-Platform Excellence",
+        "text": "Building consistent experiences across Android, iOS, web, desktop, and tablets using Flutter with responsive design and platform-specific optimizations.",
         "iconKey": "building"
       },
       {
-        "title": "AI & Machine Learning",
-        "text": "Integrating predictive models, data analysis, and intelligent decision-making into full-stack applications. Experience with Python, scikit-learn, and real-world ML deployment.",
-        "iconKey": "brain"
+        "title": "Production Quality",
+        "text": "Achieved 99% crash-free rates through robust error handling, Crashlytics integration, SSL pinning, and secure storage implementation.",
+        "iconKey": "gears"
       },
       {
-        "title": "Production-Ready Code",
-        "text": "Writing maintainable systems with proper testing, documentation, and CI/CD pipelines. Focus on engineering discipline and long-term maintainability.",
-        "iconKey": "gears"
+        "title": "Team Leadership",
+        "text": "Leading cross-functional teams, mentoring junior developers, conducting code reviews, and driving agile methodologies for reliable feature delivery.",
+        "iconKey": "brain"
       }
     ],
     "highlightLabels": {
-      "projects": "featured builds across healthcare, operations, media, and IoT",
+      "projects": "featured builds across education, transportation, home services, community platforms, event management, and backend-enabled mobile products",
       "coreLanesPrefix": "main lanes:",
       "workStart": "entered production-facing engineering work"
     },
     "capabilities": [
-      "Building scalable REST APIs and backend services with Spring Boot, ASP.NET, and Node.js.",
-      "Designing database systems and data pipelines for production applications.",
-      "Developing machine learning models and integrating AI into full-stack systems.",
-      "Deploying cloud-based applications on AWS and Azure with containerization and CI/CD automation.",
-      "Creating full-stack applications that combine sophisticated backend logic with clean frontend architecture."
+      "Building cross-platform mobile applications with Flutter for Android, iOS, web, macOS, and tablets.",
+      "Designing scalable mobile architecture with feature-based organization, clean separation of concerns, and practical state management.",
+      "Developing and integrating backend APIs with Node.js, Nest.js, TypeScript, Prisma ORM, and PostgreSQL.",
+      "Integrating authentication, payments, maps, push notifications, real-time features, analytics, and third-party APIs.",
+      "Optimizing app performance through lazy loading, pagination, caching, responsive UI, error handling, and reducing APK sizes by up to 70%.",
+      "Working across the full delivery cycle including requirements, implementation, testing, debugging, CI/CD, store releases, and post-release support.",
+      "Supporting Web3 and blockchain integrations when required, including wallets, ERC20 tokens, and NFT-related functionality."
     ],
     "priorities": [
-      "Building systems that are easy to maintain, scale, and extend with new ML features.",
-      "Writing well-documented APIs and data pipelines that other engineers can easily integrate with.",
-      "Deploying intelligent systems that combine backend reliability with predictive capabilities."
+      "Delivering robust, scalable mobile solutions with exceptional crash-free rates and security standards.",
+      "Leading teams to successful project completion within proposed timelines and budgets.",
+      "Mentoring junior developers and fostering continuous learning cultures within engineering teams."
     ],
     "workingStyle": {
       "label": "Working style",
-      "text": "I like work that is grounded in actual delivery: role-aware systems, sensible data flows, and interfaces that help reviewers understand the project quickly instead of fighting the layout."
+      "text": "I like work that is grounded in actual delivery: clean architecture, proper state management, thorough testing, and clear communication across product, design, and backend teams."
     },
     "stackNote": {
       "label": "Stack note",
@@ -168,98 +164,234 @@
     "copy": "Built like a dedicated section instead of loose badges: the core technologies, delivery tools, and product workflow essentials I return to most often.",
     "sections": [
       {
-        "category": "Frontend",
-        "description": "UI frameworks, styling, and browser-focused tooling",
+        "category": "Mobile (Cross-Platform)",
+        "description": "Flutter ecosystem and state management",
         "items": [
-          { "label": "React", "iconKey": "react" },
-          { "label": "Next.js", "iconKey": "nextjs" },
-          { "label": "TypeScript", "iconKey": "typescript" },
-          { "label": "JavaScript", "iconKey": "javascript" },
-          { "label": "HTML", "iconKey": "html" },
-          { "label": "CSS", "iconKey": "css" },
-          { "label": "Tailwind", "iconKey": "tailwind" },
-          { "label": "Bootstrap", "iconKey": "bootstrap" },
-          { "label": "MUI", "iconKey": "mui" },
-          { "label": "Vite", "iconKey": "vite" }
+          {
+            "label": "Flutter",
+            "iconKey": "flutter"
+          },
+          {
+            "label": "Dart",
+            "iconKey": "dart"
+          },
+          {
+            "label": "Bloc",
+            "iconKey": "bloc"
+          },
+          {
+            "label": "Riverpod",
+            "iconKey": "riverpod"
+          },
+          {
+            "label": "Provider",
+            "iconKey": "provider"
+          },
+          {
+            "label": "GetX",
+            "iconKey": "getx"
+          },
+          {
+            "label": "GraphQL",
+            "iconKey": "graphql"
+          },
+          {
+            "label": "Dio",
+            "iconKey": "dio"
+          },
+          {
+            "label": "Hive",
+            "iconKey": "hive"
+          },
+          {
+            "label": "Flutter Web",
+            "iconKey": "flutter"
+          },
+          {
+            "label": "Flutter Desktop",
+            "iconKey": "flutter"
+          }
+        ]
+      },
+      {
+        "category": "Mobile (Native Android)",
+        "description": "Android SDK and native development",
+        "items": [
+          {
+            "label": "Android SDK",
+            "iconKey": "android"
+          },
+          {
+            "label": "Java",
+            "iconKey": "java"
+          },
+          {
+            "label": "Kotlin",
+            "iconKey": "kotlin"
+          },
+          {
+            "label": "Room",
+            "iconKey": "room"
+          },
+          {
+            "label": "Retrofit",
+            "iconKey": "retrofit"
+          },
+          {
+            "label": "Dagger",
+            "iconKey": "dagger"
+          },
+          {
+            "label": "JUnit",
+            "iconKey": "junit"
+          },
+          {
+            "label": "Gradle",
+            "iconKey": "gradle"
+          }
         ]
       },
       {
         "category": "Backend",
-        "description": "Server-side runtime, frameworks, and languages",
+        "description": "Server-side runtime, frameworks, and databases",
         "items": [
-          { "label": "Java", "iconKey": "java" },
-          { "label": "Spring Boot", "iconKey": "springboot" },
-          { "label": "Node.js", "iconKey": "nodejs" },
-          { "label": "Express.js", "iconKey": "expressjs" },
-          { "label": "Laravel", "iconKey": "laravel" },
-          { "label": "Inertia.js", "iconKey": "inertiajs" },
-          { "label": "Python", "iconKey": "python" },
-          { "label": "ASP.NET", "iconKey": "dotnet" },
-          { "label": "Nest.js", "iconKey": "nestjs" },
-          { "label": "Flask", "iconKey": "flask" },
-          { "label": "FastAPI", "iconKey": "fastapi" },
-          { "label": "PHP", "iconKey": "php" },
-          { "label": "Kotlin", "iconKey": "kotlin" },
-          { "label": "C#", "iconKey": "csharp" },
-          { "label": "C++", "iconKey": "cpp" }
+          {
+            "label": "Node.js",
+            "iconKey": "nodejs"
+          },
+          {
+            "label": "Nest.js",
+            "iconKey": "nestjs"
+          },
+          {
+            "label": "TypeScript",
+            "iconKey": "typescript"
+          },
+          {
+            "label": "JavaScript",
+            "iconKey": "javascript"
+          },
+          {
+            "label": "Prisma ORM",
+            "iconKey": "prisma"
+          },
+          {
+            "label": "PostgreSQL",
+            "iconKey": "postgresql"
+          },
+          {
+            "label": "Docker",
+            "iconKey": "docker"
+          },
+          {
+            "label": "JWT",
+            "iconKey": "jwt"
+          },
+          {
+            "label": "Swagger",
+            "iconKey": "swagger"
+          }
         ]
       },
       {
-        "category": "Mobile",
-        "description": "Cross-platform and native mobile development",
+        "category": "Additional Experience — Blockchain & Web3",
+        "description": "Supporting experience for projects requiring Web3 integrations",
         "items": [
-          { "label": "React Native", "iconKey": "reactnative" },
-          { "label": "Kotlin", "iconKey": "kotlin" },
-          { "label": "Android Studio", "iconKey": "androidstudio" }
-        ]
-      },
-      {
-        "category": "Databases & Data",
-        "description": "Data persistence, queries, and cloud storage",
-        "items": [
-          { "label": "MySQL", "iconKey": "mysql" },
-          { "label": "PostgreSQL", "iconKey": "postgresql" },
-          { "label": "MongoDB", "iconKey": "mongodb" },
-          { "label": "SQLite", "iconKey": "sqlite" },
-          { "label": "Microsoft SQL Server", "iconKey": "microsoftsqlserver" },
-          { "label": "Firebase", "iconKey": "firebase" }
+          {
+            "label": "Solidity",
+            "iconKey": "solidity"
+          },
+          {
+            "label": "Web3",
+            "iconKey": "web3"
+          },
+          {
+            "label": "ERC20",
+            "iconKey": "erc20"
+          },
+          {
+            "label": "NFT",
+            "iconKey": "nft"
+          }
         ]
       },
       {
         "category": "Cloud & DevOps",
-        "description": "Infrastructure, containers, and deployment",
+        "description": "Infrastructure, CI/CD, and deployment",
         "items": [
-          { "label": "Microsoft Azure", "iconKey": "azure" },
-          { "label": "AWS", "iconKey": "aws" },
-          { "label": "Docker", "iconKey": "docker" },
-          { "label": "GitHub Actions", "iconKey": "githubActions" },
-          { "label": "Vercel", "iconKey": "vercel" },
-          { "label": "Render", "iconKey": "render" }
+          {
+            "label": "Firebase",
+            "iconKey": "firebase"
+          },
+          {
+            "label": "GitLab CI",
+            "iconKey": "gitlab"
+          },
+          {
+            "label": "CI/CD",
+            "iconKey": "cicd"
+          },
+          {
+            "label": "Docker",
+            "iconKey": "docker"
+          },
+          {
+            "label": "Linode",
+            "iconKey": "linode"
+          }
         ]
       },
       {
-        "category": "Development Tools",
-        "description": "IDE, version control, testing, and design",
+        "category": "Common Mobile & Tools",
+        "description": "Integrations, testing, and design",
         "items": [
-          { "label": "VS Code", "iconKey": "vscode" },
-          { "label": "IntelliJ IDEA", "iconKey": "intellijidea" },
-          { "label": "Git", "iconKey": "git" },
-          { "label": "GitHub", "iconKey": "github" },
-          { "label": "Jest", "iconKey": "jest" },
-          { "label": "Vitest", "iconKey": "vitest" },
-          { "label": "ESLint", "iconKey": "eslint" },
-          { "label": "Prettier", "iconKey": "prettier" },
-          { "label": "Figma", "iconKey": "figma" },
-          { "label": "Postman", "iconKey": "postman" },
-          { "label": "Swagger", "iconKey": "swagger" },
-          { "label": "Jupyter Notebook", "iconKey": "jupyter" }
+          {
+            "label": "Push Notifications",
+            "iconKey": "push"
+          },
+          {
+            "label": "Google Maps",
+            "iconKey": "googlemaps"
+          },
+          {
+            "label": "RevenueCat",
+            "iconKey": "revenuecat"
+          },
+          {
+            "label": "In-App Purchases",
+            "iconKey": "iap"
+          },
+          {
+            "label": "MVVM",
+            "iconKey": "mvvm"
+          },
+          {
+            "label": "RESTful APIs",
+            "iconKey": "restapi"
+          },
+          {
+            "label": "Figma",
+            "iconKey": "figma"
+          },
+          {
+            "label": "Postman",
+            "iconKey": "postman"
+          },
+          {
+            "label": "Git",
+            "iconKey": "git"
+          },
+          {
+            "label": "GitHub",
+            "iconKey": "github"
+          }
         ]
       }
     ]
   },
   "experienceSection": {
     "title": "A timeline that reads like real progress, not filler.",
-    "copy": "My path combines education, leadership, and hands-on engineering work. The goal here is simple: make each step easy to scan, easy to understand, and clearly tied to what it added to the craft.",
+    "copy": "My experience combines senior Flutter development, backend API work, technical leadership, and hands-on product delivery. I focus on building reliable mobile products, integrating them with scalable backend services, and taking features from requirements through production.",
     "overviewLabels": {
       "currentRole": "Current role",
       "academicTrack": "Academic track",
@@ -267,8 +399,8 @@
     }
   },
   "projectsSection": {
-    "title": "Case studies that explain the work without making you fight the layout.",
-    "copy": "This section is now built to scan cleanly: project context first, delivery choices next, and outcome last. That makes the work easier to review whether the demo is public or the product is still private.",
+    "title": "Selected mobile projects built for real users and real business needs.",
+    "copy": "A practical selection of mobile products covering education, transportation, home services, community platforms, event management, productivity, and commerce. Each project highlights the problem, my contribution, and the technologies used to deliver it.",
     "summaryLabels": {
       "caseStudies": "Case studies",
       "liveDemos": "Live demos",
@@ -276,34 +408,34 @@
     }
   },
   "contact": {
-    "title": "Let us make the next build feel stronger from the start.",
-    "copy": "If you have a product idea, SE opportunity, collaboration, or a portfolio review request, I am happy to talk through it with clear expectations and a focused approach.",
+    "title": "Have a mobile product to build or improve?",
+    "copy": "Whether you need a Flutter application from scratch, improvements to an existing mobile product, backend API integration, or senior engineering support, I can help turn the requirements into a reliable production-ready solution.",
     "bestFitLabel": "Best fit for",
-    "bestFitText": "SE roles, focused freelance work, and teams that value both code quality and presentation.",
+    "bestFitText": "Flutter mobile development, cross-platform app development, backend-integrated products, app modernization, MVP development, and technical leadership.",
     "contactItems": [
       {
         "label": "Email",
-        "value": "isuranga880@gmail.com",
-        "href": "mailto:isuranga880@gmail.com",
+        "value": "shaheryarthedev@gmail.com",
+        "href": "mailto:shaheryarthedev@gmail.com",
         "iconKey": "mail"
       },
       {
         "label": "Phone",
-        "value": "+94 77 173 2201",
-        "href": "https://wa.me/+94771732201",
+        "value": "+92 344 0511677",
+        "href": "https://wa.me/+923440511677",
         "iconKey": "phone"
       },
       {
         "label": "Location",
-        "value": "Matale, Sri Lanka",
-        "href": "https://www.google.com/maps/place/Matale",
+        "value": "Pakistan",
+        "href": "",
         "iconKey": "location"
       }
     ],
     "emailjs": {
-      "serviceId": "default_service",
-      "templateId": "template_cyhg4at",
-      "userId": "nDNf3GocCkCuyD2ii"
+      "serviceId": "service_8w7mqi9",
+      "templateId": "template_w58aksc",
+      "userId": "gc6N2Qkz8BA2kRnip"
     },
     "form": {
       "label": "Message form",
@@ -323,253 +455,215 @@
       "errorMessage": "Something went wrong while sending your message. Please try again later."
     }
   },
-  "certifications": [
-    {
-      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
-      "issuer": "Microsoft",
-      "year": "2025",
-      "description": "Cloud fundamentals including Azure services, deployment models, and core cloud concepts.",
-      "href": "https://learn.microsoft.com/api/credentials/share/en-us/IsurangaBandara-1927/87FD3CE231A417EC?sharingId=1F4BB37D6AC03833",
-      "display": true
-    },
-    {
-      "title": "Career Essentials in GitHub Professional Certificate",
-      "issuer": "GitHub & LinkedIn Learning",
-      "year": "2024",
-      "description": "GitHub workflows, collaboration, and professional development practices.",
-      "href": "https://www.linkedin.com/learning/certificates/0023445596bd1868f5a203b0266c8b23500338aeb1b6eb01cc85b8a93f583632",
-      "display": true
-    },
-    {
-      "title": "Docker Foundations Professional Certificate",
-      "issuer": "Docker, Inc",
-      "year": "2024",
-      "description": "Container fundamentals, Docker architecture, and containerization best practices.",
-      "href": "https://www.linkedin.com/learning/certificates/b4c81c3bd88b24aa490b78fe62d6c93e4cfb2e0ac59a81b2ea045a5fb024cdf7",
-      "display": true
-    },
-    {
-      "title": ".NET Development for Beginners",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Introduction to .NET framework and modern C# development patterns.",
-      "href": "https://www.linkedin.com/learning/certificates/8aa0ae9cf4de71ece1b1fe10e73bc7d0f27a11981458188b83ac41429ac539a8",
-      "display": false
-    },
-    {
-      "title": "Software Architecture Foundations",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "System design principles, architectural patterns, and scalable application design.",
-      "href": "https://www.linkedin.com/learning/certificates/765c88046f2961379e242c4c5faa7750b844e70e2628b47d4ca705246cf1840f",
-      "display": false
-    },
-    {
-      "title": "Build Your Own GPTs",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Creating custom GPT models and AI-powered applications.",
-      "href": "https://www.linkedin.com/learning/certificates/765c88046f2961379e242c4c5faa7750b844e70e2628b47d4ca705246cf1840f",
-      "display": false
-    },
-    {
-      "title": "What Is Generative AI?",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Fundamentals of generative AI, LLMs, and practical AI applications.",
-      "href": "https://www.linkedin.com/learning/certificates/1a3dcedc65471069bed5fb410b573db60d201d4262a6c80183d62376be404ae4",
-      "display": false
-    },
-    {
-      "title": "Responsible AI and Application Development",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Ethical AI development and responsible practices in application design.",
-      "href": "https://www.linkedin.com/learning/certificates/6ab7b7c3ea1e97c93cd2b31d19b260870ec8fdffce28d1a6cd7eac7541e2a75c",
-      "display": false
-    }
-  ],
+  "certifications": [],
   "projects": [
     {
-      "title": "Hostel Management System",
-      "category": "Cloud-deployed management platform",
-      "year": "2026",
-      "imageKey": "hostel",
-      "summary": "Full-stack management system for handling tenant records, room allocation, and administrative operations with cloud deployment.",
-      "challenge": "Build a scalable system that manages multiple operational workflows while maintaining clean architecture and reliable deployments.",
-      "delivery": "Designed NestJS REST APIs with PostgreSQL, implemented Next.js frontend with TypeScript, containerized with Docker, and deployed on AWS EC2.",
-      "impact": "Demonstrated end-to-end full-stack delivery including automated CI/CD pipelines, comprehensive testing, and production-grade deployment.",
-      "stack": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker", "AWS EC2", "GitHub Actions"],
-      "metrics": ["Scalable backend architecture", "Role-based access control", "Automated testing"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Hostel_Management_System",
-      "liveDemo": "https://hostel-management-system-frontend-seven.vercel.app/"
+      "title": "YouHue",
+      "category": "Emotional well-being app for students and educators",
+      "year": "2025",
+      "imageKey_": "youhue",
+      "imageKey": "youhue",
+      "summary": "Cross-platform application enabling mood journaling and suggested activity tracking for emotional wellness in educational settings.",
+      "challenge": "Build a consistent experience across Android, iOS, tablets, macOS, and web while implementing intuitive mood selection with rich animations.",
+      "delivery": "Revamped using Flutter with Riverpod state management, RESTful API integration, and modular architecture for maintainable cross-platform support.",
+      "impact": "Created a digital safe space where students freely share feelings, making emotional management engaging and accessible.",
+      "stack": ["Flutter", "Riverpod", "RESTful APIs", "Android", "iOS", "macOS", "Web", "Tablets"],
+      "metrics": ["Cross-platform consistency", "Rich animations", "Mood journaling system"],
+      "liveDemo": "https://youhue.com",
+      "githubRepo": "https://youhue.com"
     },
     {
-      "title": "Duskwood Hospital Appointment System",
-      "category": "Full-stack healthcare platform",
+      "title": "Attendo Plus CPD",
+      "category": "Event management platform",
+      "year": "2023",
+      "imageKey": "attendo",
+      "summary": "Event management app with QR scanning, Google Maps integration, push notifications, and in-app purchases.",
+      "challenge": "Maintain and add features to existing Android and iOS event management application.",
+      "delivery": "Android app maintenance, feature additions, and issue resolution for comprehensive event management.",
+      "impact": "Enhanced event management capabilities with QR attendance tracking and CPD functionality.",
+      "stack": [
+        "Flutter",
+        "Android",
+        "iOS",
+        "QR Scanning",
+        "Google Maps API",
+        "Push Notifications",
+        "In-App Purchases"
+      ],
+      "metrics": ["Cross-platform events", "QR check-in", "CPD tracking"],
+      "githubRepo": "",
+      "liveDemo": "https://apps.apple.com/us/app/attendo-plus/id6766174371"
+    },
+    {
+      "title": "Marvellex",
+      "category": "Native Android crypto wallet",
+      "year": "2023",
+      "imageKey": "marvellex",
+      "summary": "Native Android cryptocurrency wallet supporting generic and custom ERC20 tokens with QR-based payment functionality.",
+      "challenge": "Develop a secure Android wallet capable of handling cryptocurrency assets, token transactions, and QR-based payments.",
+      "delivery": "Native Android development, crypto transaction handling, wallet functionality, ERC20 token integration, QR payment features, and security-focused implementation.",
+      "impact": "Contributed to the delivery of a production crypto wallet with multi-token support and secure transaction workflows.",
+      "stack": ["Android", "Java", "Web3", "ERC20", "QR Payments", "Blockchain"],
+      "metrics": ["Native Android", "Multi-token support", "QR payment system"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=io.marvellex&hl=en"
+    },
+    {
+      "title": "Redmine Client",
+      "category": "Task management solution",
+      "year": "2023",
+      "imageKey": "redmine",
+      "summary": "Flutter app using open-source Redmine API for comprehensive task management.",
+      "challenge": "Build mobile client for Redmine task management system with Google Ads integration.",
+      "delivery": "Flutter application with RESTful API integration, Google Ads, and push notifications.",
+      "impact": "Provided mobile access to Redmine task management with monetization through ads.",
+      "stack": ["Flutter", "Provider", "RESTful APIs", "Google Ads", "Push Notifications"],
+      "metrics": ["Task management", "API integration", "Ad monetization"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=com.ifisol.redmine_client&hl=en"
+    },
+    {
+      "title": "Manawanui",
+      "category": "Native Android application",
       "year": "2024",
-      "imageKey": "hospital",
-      "summary": "A production-style appointment and patient record platform designed to reduce friction for patients, doctors, and administrators.",
-      "challenge": "Build a system that coordinates booking flows, record management, reminders, and reporting without overwhelming different user roles.",
-      "delivery": "Designed a role-aware experience with appointment scheduling, patient records, admin controls, and automated reminder workflows.",
-      "impact": "Turned a complex hospital workflow into a more reliable digital system with clearer operational visibility.",
-      "stack": ["React", "Vite", "Tailwind", "JavaScript", "MySQL", "Spring Boot"],
-      "metrics": ["Role-based dashboards", "Appointment orchestration", "Automated email reminders"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Hospital_Appointment_System",
-      "liveDemo": "https://hospital-appointment-system-delta.vercel.app/"
+      "imageKey": "manawanui",
+      "summary": "Native Android application developed to provide a reliable and user-friendly mobile experience for its users.",
+      "challenge": "Build and maintain a production-ready Android application with a responsive user experience and reliable integration with backend services.",
+      "delivery": "Native Android development using Java, RESTful API integration, UI implementation, debugging, performance optimization, and production support.",
+      "impact": "Delivered a stable Android experience with a focus on usability, maintainability, and reliable backend communication.",
+      "stack": ["Android", "Java", "RESTful APIs", "Android SDK"],
+      "metrics": ["Native Android", "API integration", "Production delivery"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=ifisol.manawanui&hl=en"
     },
     {
-      "title": "IntMind AI Sobriety Coach",
-      "category": "AI-powered recovery companion mobile application",
-      "year": "2026",
-      "imageKey": "sobriety_app",
-      "summary": "An AI-powered mobile app designed to support alcohol recovery by helping users track moods, cravings, and triggers while receiving personalized guidance.",
-      "challenge": "Create a system that provides consistent support between therapy sessions while keeping the experience simple, private, and engaging for users in recovery.",
-      "delivery": "Built a cross-platform mobile app using React Native (Expo) with backend services in FastAPI and Express.js, integrating AI conversation workflows using LangChain and AutoGen.",
-      "impact": "Demonstrates how AI companions can support behavioral change through daily tracking, contextual conversations, and personalized suggestions.",
-      "stack": ["React Native", "Expo", "TypeScript", "FastAPI", "Express.js", "LangChain", "AutoGen", "NoSQL Database", "NativeWind"],
-      "metrics": ["Daily mood and craving tracking", "AI companion chat", "Personalized suggestions", "Smart reminders and progress tracking"],
+      "title": "Home Services App",
+      "category": "Native Android application",
+      "year": "2024",
+      "imageKey": "services",
+      "summary": "Native Android application for connecting customers with home service providers and managing service requests.",
+      "challenge": "Create a convenient Android experience for discovering services, requesting assistance, and managing service interactions.",
+      "delivery": "Native Android development using Java, RESTful API integration, business-focused UI implementation, debugging, and production support.",
+      "impact": "Delivered a mobile-first service experience focused on straightforward service discovery, request management, and reliable application performance.",
+      "stack": ["Android", "Java", "RESTful APIs", "Android SDK"],
+      "metrics": ["Service marketplace", "Native Android", "API integration"],
       "githubRepo": "",
       "liveDemo": ""
     },
+
     {
-      "title": "Asteria Desk Hotel Booking System",
-      "category": "Web-based hospitality management system",
-      "year": "2026",
-      "imageKey": "hotel_booking",
-      "summary": "A Laravel-based hotel booking platform built to learn MVC architecture, covering reservations, room inventory, staff access, and operational dashboards.",
-      "challenge": "Structure a real-world hotel management workflow with clear separation of concerns, role-based access, and maintainable data handling across bookings, rooms, and team accounts.",
-      "delivery": "Built the system with Laravel, Inertia.js, React, and TypeScript using an MVC pattern for authentication, CRUD workflows, dashboard reporting, and hotel operations management.",
-      "impact": "Demonstrated how a full-stack Laravel application can stay organized, scalable, and user-friendly while handling core hospitality operations in one place.",
-      "stack": ["PHP", "Laravel", "Inertia.js", "React", "TypeScript", "SQLite", "Tailwind CSS", "Render", "Vite", "MVC Architecture"],
-      "metrics": ["Role-based staff/admin access", "Booking and inventory management", "Operational dashboard", "Responsive UI"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/hotel_booking_system",
-      "liveDemo": "https://hotel-booking-system-ihcv.onrender.com/"
-    },
-    {
-      "title": "Dilthira Stock Portal",
-      "category": "Operations and reporting tool",
-      "year": "2023",
-      "imageKey": "stockPortal",
-      "summary": "A stock and transaction portal for a pepper co-op focused on clarity, reporting, and day-to-day inventory visibility.",
-      "challenge": "Create a straightforward administrative tool for stock, income, and transaction tracking using foundational web technologies.",
-      "delivery": "Built inventory, transaction, and user-management flows with reporting support for small-scale business operations.",
-      "impact": "Gave the co-op a more structured digital layer for stock accuracy and business reporting.",
-      "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Bootstrap"],
-      "metrics": ["Transaction records", "Stock visibility", "Admin reporting workflows"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Stock_Portal_for_Spice_Co.",
-      "liveDemo": ""
-    },
-    {
-      "title": "Horizon News Mobile App",
-      "category": "Mobile editorial product",
+      "title": "Mighty Taxi",
+      "category": "Transportation and ride-hailing app",
       "year": "2024",
-      "imageKey": "horizon",
-      "summary": "A newsroom-oriented mobile app where readers, editors, and reporters each get workflows tailored to their role.",
-      "challenge": "Balance article publishing, account management, editorial review, and drafting inside a mobile-first product.",
-      "delivery": "Created role-specific capabilities for reading, rating, managing content, and drafting reports across the news lifecycle.",
-      "impact": "Showed how editorial tools can feel structured and intuitive on mobile while still supporting complex permissions.",
-      "stack": ["Kotlin", "MongoDB", "SQLite", "Express.js", "Node.js", "REST APIs"],
-      "metrics": ["Reporter draft workflow", "Editor moderation tools", "Mobile-first publishing"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Horizon_News_App",
-      "liveDemo": ""
+      "imageKey": "mightytaxi",
+      "summary": "Mobile transportation application focused on connecting riders and drivers through a streamlined booking experience.",
+      "challenge": "Build a smooth mobile experience around location-aware transportation workflows and backend-driven application data.",
+      "delivery": "Flutter mobile development, API integration, maps/location features, UI implementation, and production debugging.",
+      "impact": "Contributed to a practical transportation experience with a strong focus on mobile usability and reliable backend communication.",
+      "stack": ["Flutter", "Dart", "RESTful APIs", "Google Maps", "Android", "iOS"],
+      "metrics": ["Transportation", "Location features", "Backend integration"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=com.mighty.taxirider&hl=en"
     },
     {
-      "title": "EnviroSense Smog Tower System",
-      "category": "IoT and AI monitoring system",
-      "year": "2025",
-      "imageKey": "envirosense",
-      "summary": "An air-quality monitoring and purification concept combining IoT capture, forecasting, and environmental dashboards.",
-      "challenge": "Translate real-world environmental data into something measurable, forecastable, and useful for public monitoring.",
-      "delivery": "Connected sensing, forecasting, and cloud-based monitoring into a system that surfaces air-quality performance in real time.",
-      "impact": "Positioned environmental data as a decision-making tool rather than just a stream of raw measurements.",
-      "stack": ["Python", "Firebase", "C++", "Node.js", "Machine Learning", "IoT"],
-      "metrics": ["Real-time air monitoring", "Forecasting layer", "Cloud-connected reporting"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Smog_Towers_Project",
-      "liveDemo": "https://enviro-sense-nine.vercel.app/"
+      "title": "Himolatech",
+      "category": "Transportation and ride-sharing app",
+      "year": "2024",
+      "imageKey": "himolatech",
+      "summary": "Professional mobile application project delivered as part of the user's production development work.",
+      "challenge": "Translate product requirements into a maintainable cross-platform mobile application and integrate it with backend services.",
+      "delivery": "Flutter development, API integration, responsive UI implementation, debugging, and production support.",
+      "impact": "Helped deliver a production-oriented mobile product with maintainable cross-platform foundations.",
+      "stack": ["Flutter", "Dart", "RESTful APIs", "Android", "iOS"],
+      "metrics": ["Cross-platform mobile", "Backend integration", "Production support"],
+      "githubRepo": "",
+      "liveDemo": ""
+    },
+
+    {
+      "title": "Ring In",
+      "category": "Community sports collaboration app",
+      "year": "2024",
+      "imageKey": "ringin",
+      "summary": "Community app for sports players to collaborate and hire missing roles for their teams.",
+      "challenge": "Build cross-platform solution for sports team formation and player collaboration.",
+      "delivery": "Flutter-based project for Android, iOS, and Web with Firebase, FCM, Google Maps, and Places API.",
+      "impact": "Enabled sports communities to find players and fill team positions efficiently.",
+      "stack": ["Flutter", "Firebase", "FCM", "Google Maps", "Google Places", "Web"],
+      "metrics": ["Team collaboration", "Role finding", "Cross-platform sports community"],
+      "githubRepo": "",
+      "liveDemo": "https://play.google.com/store/apps/details?id=com.ifisol.ring_in"
     }
   ],
   "achievements": [
     {
-      "title": "Batch Top – Diploma in Computer System Designing",
+      "title": "8+ Production Projects Launched",
+      "year": "2025",
+      "description": "Delivered production mobile products across education, transportation, community, event management, delivery, and business applications."
+    },
+    {
+      "title": "70% App Size Reduction",
       "year": "2024",
-      "description": "Achieved top position in the Diploma batch through consistent academic excellence."
+      "description": "Reduced legacy application sizes by up to 70% through vector assets, Proguard, and Android App Bundles."
     },
     {
-      "title": "Vice President – Sylvestrian Technology Society",
-      "year": "2023-2025",
-      "description": "Led technology initiatives including workshops, mentoring, and community building."
+      "title": "99% Crash-Free Rate",
+      "year": "2024",
+      "description": "Improved production reliability through robust error handling, Crashlytics integration, and performance monitoring."
     },
     {
-      "title": "Young Achiever Award",
-      "year": "2019",
-      "description": "Recognized as Young Achiever at ESOFT Diploma Award Ceremony."
+      "title": "Mobile + Backend Delivery",
+      "year": "2025",
+      "description": "Hands-on experience connecting Flutter applications with production backend services using Node.js, Nest.js, TypeScript, Prisma, PostgreSQL, and REST APIs."
     }
   ],
   "experiences": [
     {
-      "period": "Apr 2025 - Apr 2026",
+      "period": "Jan 2025 - Present",
       "type": "Work",
-      "title": "Bitzify",
-      "role": "Intern Full-Stack Software Developer",
-      "summary": "Developing production full-stack applications using modern web technologies. Designed backend systems for inventory and POS platforms, refactored frontend architecture, and contributed to payment system integration.",
-      "focus": ["Production development", "Frontend architecture", "System design"]
+      "title": "YouHue FZ-LLC",
+      "role": "Senior Flutter Developer",
+      "summary": "Developing emotional well-being app for students and educators. Maintaining cross-platform support across Android, iOS, tablets, macOS, and web. Implementing intuitive UI features with rich animations and Riverpod state management.",
+      "focus": ["Cross-platform Flutter", "Riverpod", "API integration", "Modular architecture"]
     },
     {
-      "period": "Jul 2025 - Present",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "BSc in Computer Science with Artificial Intelligence (Reading)",
-      "summary": "Undergraduate program focused on computer science fundamentals, artificial intelligence, and modern software engineering practices.",
-      "focus": ["AI/ML concepts", "System design", "Advanced programming"]
+      "period": "Oct 2024 - May 2025",
+      "type": "Work",
+      "title": "URUK IT Solutions",
+      "role": "Senior Flutter Developer",
+      "summary": "Collaborated with development manager, design lead, and backend leads to architect mobile applications. Led and mentored team of developers, overseeing full software development lifecycle with agile methodologies.",
+      "focus": ["Team leadership", "Agile methodologies", "CI/CD", "Mentoring"]
     },
     {
-      "period": "Mar 2024 - Jun 2025",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Higher National Diploma in Software Engineering",
-      "summary": "Developed practical experience across full-stack delivery, OOP, APIs, databases, and collaborative software workflows.",
-      "focus": ["Full-stack delivery", "APIs", "Databases"]
-    },
-    {
-      "period": "Jan 2023 - Mar 2024",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Diploma in Computer System Designing",
-      "summary": "Built core foundations in software design, programming, systems thinking, and technical problem-solving.",
-      "focus": ["System design", "Programming", "Problem-solving"]
-    },
-    {
-      "period": "Jun 2023 - Jan 2025",
+      "period": "Jun 2022 - Mar 2024",
       "type": "Leadership",
-      "title": "St. Sylvester's College",
-      "role": "Vice President, Technology Society",
-      "summary": "Led technology awareness initiatives, peer mentoring, workshops, and collaboration across student communities.",
-      "focus": ["Mentoring", "Workshops", "Community building"]
+      "title": "Alphabase (formerly Block360)",
+      "role": "Senior Software Engineer (Flutter, Android, Nest.js)",
+      "summary": "Launched 3 projects while working across mobile development, backend services, product ownership, and team leadership. Built and maintained mobile products, developed backend services with Nest.js, and contributed to CI/CD and third-party integrations.",
+      "focus": ["Flutter", "Android", "Nest.js", "Backend APIs", "Team leadership", "CI/CD"]
     },
     {
-      "period": "Apr 2023 - May 2024",
-      "type": "Leadership",
-      "title": "St. Sylvester's College",
-      "role": "Committee Member, IT Society",
-      "summary": "Supported event planning, competition organizing, and ICT community building through hands-on coordination.",
-      "focus": ["Event planning", "Competitions", "ICT support"]
+      "period": "Jan 2018 - Jun 2022",
+      "type": "Work",
+      "title": "FISOL SMC PVT Ltd.",
+      "role": "Mobile Application Developer (Flutter, Android)",
+      "summary": "Launched 8 projects across developer, product owner, and team lead roles. Built and maintained Flutter and Android applications, reduced app sizes up to 70%, achieved 99% crash-free rates, and implemented security and performance improvements.",
+      "focus": [
+        "Flutter",
+        "Android",
+        "Performance optimization",
+        "API integration",
+        "Security",
+        "Mentoring"
+      ]
     },
     {
-      "period": "May 2022 - Aug 2022",
+      "period": "2014 - 2018",
       "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Certificate in Software Engineering",
-      "summary": "Strengthened core programming, algorithms, and systems fundamentals through project-based learning.",
-      "focus": ["SE foundation", "Best practices", "Projects"]
-    },
-    {
-      "period": "Feb 2017 - Jun 2018",
-      "type": "Education",
-      "title": "ESOFT Metro Campus, Matale",
-      "role": "DiTEC Diploma in Information Technology",
-      "summary": "Built an early foundation in ICT, productivity tools, hardware concepts, networking basics, and introductory programming.",
-      "focus": ["ICT foundation", "Software fundamentals", "Intro programming"]
+      "title": "COMSATS University Islamabad",
+      "role": "Bachelor of Science in Software Engineering",
+      "summary": "CGPA: 3.36/4. Built strong foundation in software engineering principles, system design, and development methodologies.",
+      "focus": ["Software Engineering", "System Design", "Development methodologies"]
     }
   ]
 }

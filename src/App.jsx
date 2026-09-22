@@ -6,7 +6,7 @@ import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import OrientationOverlay from './Components/OrientationOverlay'
 import Aurora from './component/Aurora'
-import portrait from './assets/my_pic.webp'
+import portrait from './assets/my_pic.png'
 import { projectsData } from './content'
 import { useProgressLoader } from './hooks/useProgressLoader'
 import { useOrientationDetector } from './hooks/useOrientationDetector'
@@ -49,13 +49,13 @@ const deferredSections = [
     loader: () => import('./Components/Experience'),
     fallbackClassName: 'min-h-[58rem]',
   },
-  {
-    id: 'certifications',
-    labelledBy: 'certifications-title',
-    sectionClassName: 'section-shell',
-    loader: () => import('./Components/Certifications'),
-    fallbackClassName: 'min-h-[40rem]',
-  },
+  // {
+  //   id: 'certifications',
+  //   labelledBy: 'certifications-title',
+  //   sectionClassName: 'section-shell',
+  //   loader: () => import('./Components/Certifications'),
+  //   fallbackClassName: 'min-h-[40rem]',
+  // },
   {
     id: 'projects',
     labelledBy: 'projects-title',

@@ -1,4 +1,4 @@
-# Anushka Isuranga - Portfolio
+# Shaheryar Malik - Portfolio
 
 Welcome to the source code of my personal portfolio website. This website showcases my journey as a software developer, highlighting my skills, projects, and experience in web and mobile development.
 
